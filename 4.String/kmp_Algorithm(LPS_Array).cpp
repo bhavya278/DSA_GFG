@@ -1,5 +1,5 @@
-//EFFICIENT APPROACH(O(N))
-/*
+//-------------------------------------EFFICIENT APPROACH(O(N))--------------------------------------
+
 #include <bits/stdc++.h> 
 using namespace std; 
 
@@ -17,7 +17,7 @@ void fillLPS(string str, int *lps){
         }
     }
 }
- 
+
 int main() 
 { 
     string txt = "abacabad";int lps[txt.length()];
@@ -28,9 +28,9 @@ int main()
     
     return 0; 
 } 
-*/
 
-//NAIVE APPROACH O(N^3)
+
+//---------------------------------NAIVE APPROACH O(N^3)-----------------------------------------
 /*
 #include <bits/stdc++.h> 
 using namespace std; 
@@ -53,7 +53,7 @@ void fillLPS(string str, int *lps){
         lps[i]=longPropPreSuff(str,i+1);
     }
 }
- 
+
 int main() 
 { 
     string txt = "abacabad";int lps[txt.length()];

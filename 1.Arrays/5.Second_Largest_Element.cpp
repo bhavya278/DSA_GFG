@@ -1,4 +1,4 @@
-//EFFICIENT APPROACH
+//---------------------------------EFFICIENT APPROACH------------------------------------------
 #include <iostream>
 using namespace std;
 int secondLargest(int arr[], int n)

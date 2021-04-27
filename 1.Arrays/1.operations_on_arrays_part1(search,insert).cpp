@@ -1,4 +1,4 @@
-//Insertion
+//--------------------------------Insertion------------------------------------
 
 #include <iostream>
 #include <cmath>
@@ -53,7 +53,8 @@ int main()
 
 
 
-//Search
+//---------------------------------------Search----------------------------------------------
+
 /*
 #include <iostream>
 #include <cmath>

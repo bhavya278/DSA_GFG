@@ -1,4 +1,4 @@
-//NAIVE APPROACH(O(n^2))
+//--------------------------------NAIVE APPROACH(O(n^2))--------------------------------
 
 /*
 #include <iostream>
@@ -36,7 +36,7 @@ int main()
 }
 */
 
-//EFFICIENT APPROACH(O(n))
+//------------------------------------EFFICIENT APPROACH(O(n))--------------------------------------
 
 #include <iostream>
 #include <cmath>

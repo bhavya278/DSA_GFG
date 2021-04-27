@@ -47,8 +47,7 @@ int main()
 {
     string txt = "GEEKS FOR GEEKS";
     string pat = "GEEK";
-    cout << "All index numbers where pattern found:"
-         << " ";
+    cout << "All index numbers where pattern found:" << " ";
     RBSearch(pat, txt, 4, 15);
 
     return 0;
