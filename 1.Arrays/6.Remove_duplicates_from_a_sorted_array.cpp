@@ -7,7 +7,8 @@ using namespace std;
 int remDups(int arr[], int n)
 {
     int res = 1;
-
+    if (n == 0)
+        return 0;
     for (int i = 1; i < n; i++)
     {
         if (arr[res - 1] != arr[i])
